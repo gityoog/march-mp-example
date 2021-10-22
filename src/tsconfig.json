@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noImplicitThis": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "downlevelIteration": true,
+    "target": "es5",
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
+    "sourceMap": false
+  }
+}

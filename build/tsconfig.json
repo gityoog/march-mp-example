@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitThis": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "module": "none",
+    "target": "ES6",
+    "baseUrl": "."
+  },
+  "ts-node": {
+    "transpileOnly": true
+  }
+}
