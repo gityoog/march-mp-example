@@ -13,7 +13,7 @@ export default {
     new TsCheckerPlugin(),
     new ProcessPlugin(),
     new webpack.DefinePlugin({
-      Baseurl: 'https://development'
+      Baseurl: JSON.stringify('https://development')
     })
   ]
 } as webpack.Configuration

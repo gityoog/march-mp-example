@@ -10,7 +10,7 @@ export default {
   plugins: [
     new ProcessPlugin(),
     new webpack.DefinePlugin({
-      Baseurl: 'https://production'
+      Baseurl: JSON.stringify('https://production')
     })
   ]
 } as webpack.Configuration
